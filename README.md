@@ -1,75 +1,39 @@
-# React + TypeScript + Vite
+# 🧱 Assignment 5
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Assignment 5 is a responsive React-based Dev Stack Builder website. It allows users to explore different technologies and build their own development stack by adding and removing technologies.
 
-Currently, two official plugins are available:
+## 🚀 Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React.js
+- TypeScript
+- Tailwind CSS
+- React-Hot-Toast
+- JSON
+- Vite
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 1. 🔍 Explore Technologies
+Users can explore different technologies with their icon, category, description, rating, difficulty level, and badge.
 
-## Expanding the ESLint configuration
+### 2. 🧰 Build Your Own Stack
+Users can add their favorite technologies to the "Your Stack" section. The same technology cannot be added twice.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 3. ➕➖ Manage Your Stack
+Users can remove individual technologies or remove all selected technologies at once. Toast notifications are shown for add, duplicate, remove, and remove-all actions.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## 📱 Responsive Design
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+The website is fully responsive and works on:
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- 📱 Mobile
+- 📲 Tablet
+- 💻 Desktop
 
-```
+## 📂 Data Source
 
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
+Technology information is loaded dynamically from a local `data.json` file instead of being hardcoded inside the React component.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🎯 Project Purpose
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
+This project was created as Assignment 5 to practice React components, state management, JSON data fetching, event handling, conditional rendering, and responsive design.
