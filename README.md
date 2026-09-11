@@ -59,3 +59,6 @@ This project was created as Assignment 5 to practice React components, state man
 
 6. **What is conditional rendering? Show one place you used it.**  
    Conditional rendering means showing different UI based on a condition. I used it in the Your Stack section to show an empty message when no technology is selected.
+
+7. **How do you pass data from a parent component to a child component, and how does a child send something back to the parent?**  
+   A parent passes data to a child using props. A child can send information back to the parent by calling a function passed through props. In this project, `App.tsx` passes `stack` and functions to `TechnologySection` and `YourStack`.
