@@ -37,3 +37,23 @@ Technology information is loaded dynamically from a local `data.json` file inste
 ## 🎯 Project Purpose
 
 This project was created as Assignment 5 to practice React components, state management, JSON data fetching, event handling, conditional rendering, and responsive design.
+
+
+
+## 📚 React Questions & Answers
+
+1. **What is JSX, and why is it used in React?**  
+   JSX is a syntax that allows us to write HTML-like code inside JavaScript or TypeScript. It makes React components easier to create and understand.
+
+2. **What is the difference between props and state?**  
+   Props are used to pass data from a parent component to a child component. State is used to store and manage data that can change inside a component.
+
+3. **What does the `useState` hook do, and where did you use it in this project?**  
+   `useState` is used to create and manage state in React. I used it to store the selected technologies in the `stack` and the technology data loaded from JSON.
+
+4. **What does the `useEffect` hook do, and why did you need it to load the JSON data?**  
+   `useEffect` is used to perform side effects in React. I used it to fetch the technology data from `data.json` when the component loads.
+
+5. **Why does every item in a `.map()` list need a unique `key` prop?**  
+   A unique `key` helps React identify each item in a list. It helps React update the list efficiently when items are added or removed.
+
