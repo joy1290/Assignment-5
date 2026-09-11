@@ -37,7 +37,7 @@
     "name": "Next.js",
     "category": "React Framework",
     "description": "The React framework for production-ready web applications.",
-    "icon": "https://icon.icepanel.io/Technology/svg/Next.js.svg",
+    "icon": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
     "color": "bg-black",
     "badge": "SSR / Edge",
     "rating": "4.9",

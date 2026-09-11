@@ -32,17 +32,12 @@ function YourStack({
         {stack.length === 0 ? (
           <div className="rounded-lg border border-dashed border-gray-200 px-4 py-8 text-center">
 
-            <div className="text-3xl">
-              🧩
-            </div>
-
+           
             <p className="mt-2 text-sm font-medium text-gray-500">
           Your Stack is Empty.
             </p>
 
-            <p className="mt-1 text-xs text-gray-400">
-              Add technologies from the list
-            </p>
+          
 
           </div>
         ) : (
