@@ -14,7 +14,7 @@ function TechnologyCard({
   return (
     <div className="flex h-full flex-col rounded-lg border border-gray-200 bg-white p-4 transition duration-200 hover:-translate-y-1 hover:shadow-md">
 
-      {/* Top */}
+      
       <div className="flex items-center justify-between">
         <div
           className={`flex h-10 w-10 items-center justify-center rounded-md ${technology.color}`}
@@ -31,22 +31,22 @@ function TechnologyCard({
         </span>
       </div>
 
-      {/* Name */}
+    
       <h3 className="mt-3 text-sm font-bold text-gray-900">
         {technology.name}
       </h3>
 
-      {/* Category */}
+      
       <p className="mt-1 text-[9px] font-medium text-gray-400">
         {technology.category}
       </p>
 
-      {/* Description */}
+      
       <p className="mt-3 min-h-[40px] text-[10px] leading-4 text-gray-500">
         {technology.description}
       </p>
 
-      {/* Rating + Difficulty */}
+    
       <div className="mt-2 flex items-center justify-between">
         <div className="flex items-center gap-1">
           <span className="text-yellow-400">★</span>
@@ -61,7 +61,7 @@ function TechnologyCard({
         </span>
       </div>
 
-      {/* Add Button */}
+      
       <button
         type="button"
         onClick={() => onAdd(technology)}

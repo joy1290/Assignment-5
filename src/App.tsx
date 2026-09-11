@@ -12,7 +12,6 @@ import type { Technology } from "./components/type/Technology";
 function App() {
   const [stack, setStack] = useState<Technology[]>([]);
 
-  // Add technology
   const addTechnology = (technology: Technology) => {
     const alreadyExists = stack.some(
       (item) => item.id === technology.id
@@ -31,7 +30,7 @@ function App() {
     toast.success(`${technology.name} added to your stack!`);
   };
 
-  // Remove only one technology
+  
   const removeTechnology = (id: number) => {
     const technology = stack.find(
       (item) => item.id === id
@@ -50,7 +49,7 @@ function App() {
     );
   };
 
-  // Remove all technologies
+  
   const removeAll = () => {
     if (stack.length === 0) {
       toast.error("Your stack is already empty!");
@@ -112,7 +111,7 @@ function App() {
           </section>
         </main>
 
-        {/* Footer */}
+      
         <Footer />
       </div>
     </>
