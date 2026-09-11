@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "name": "React",
+    "category": "Frontend",
+    "description": "A JavaScript library for building user interfaces.",
+    "icon": "https://icon.icepanel.io/Technology/svg/React.svg",
+    "color": "bg-cyan-500",
+    "badge": "Popular",
+    "rating": "4.9",
+    "difficulty": "Beginner-Friendly"
+  },
+  {
+    "id": 2,
+    "name": "Vue.js",
+    "category": "Frontend",
+    "description": "A progressive JavaScript framework for building interfaces.",
+    "icon": "https://icon.icepanel.io/Technology/svg/Vue.js.svg",
+    "color": "bg-green-500",
+    "badge": "Versatile",
+    "rating": "4.8",
+    "difficulty": "Beginner-Friendly"
+  },
+  {
+    "id": 3,
+    "name": "Svelte",
+    "category": "Frontend",
+    "description": "A modern compiler-based framework for web development.",
+    "icon": "https://icon.icepanel.io/Technology/svg/Svelte.svg",
+    "color": "bg-orange-500",
+    "badge": "Fast",
+    "rating": "4.8",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": 4,
+    "name": "Next.js",
+    "category": "React Framework",
+    "description": "The React framework for production-ready web applications.",
+    "icon": "https://icon.icepanel.io/Technology/svg/Next.js.svg",
+    "color": "bg-black",
+    "badge": "SSR / Edge",
+    "rating": "4.9",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": 5,
+    "name": "Node.js",
+    "category": "Backend",
+    "description": "JavaScript runtime for building scalable server applications.",
+    "icon": "https://icon.icepanel.io/Technology/svg/Node.js.svg",
+    "color": "bg-green-600",
+    "badge": "Standard",
+    "rating": "4.8",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": 6,
+    "name": "PostgreSQL",
+    "category": "Database",
+    "description": "A powerful open-source relational database system.",
+    "icon": "https://icon.icepanel.io/Technology/svg/PostgresSQL.svg",
+    "color": "bg-blue-600",
+    "badge": "Top SQL",
+    "rating": "4.9",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": 7,
+    "name": "Redis",
+    "category": "Database",
+    "description": "An in-memory data store used for caching and fast applications.",
+    "icon": "https://icon.icepanel.io/Technology/svg/Redis.svg",
+    "color": "bg-red-500",
+    "badge": "Cache",
+    "rating": "4.8",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": 8,
+    "name": "JavaScript",
+    "category": "Language",
+    "description": "The programming language of the web.",
+    "icon": "https://icon.icepanel.io/Technology/svg/JavaScript.svg",
+    "color": "bg-yellow-400",
+    "badge": "Ubiquitous",
+    "rating": "4.9",
+    "difficulty": "Beginner-Friendly"
+  },
+  {
+    "id": 9,
+    "name": "TypeScript",
+    "category": "Language",
+    "description": "JavaScript with static typing for scalable applications.",
+    "icon": "https://icon.icepanel.io/Technology/svg/TypeScript.svg",
+    "color": "bg-blue-500",
+    "badge": "Essential",
+    "rating": "4.9",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": 10,
+    "name": "Java",
+    "category": "Language",
+    "description": "A robust object-oriented programming language.",
+    "icon": "https://icon.icepanel.io/Technology/svg/Java.svg",
+    "color": "bg-red-600",
+    "badge": "Robust",
+    "rating": "4.6",
+    "difficulty": "Intermediate"
+  },
+  {
+    "id": 11,
+    "name": "Tailwind CSS",
+    "category": "CSS Framework",
+    "description": "A utility-first CSS framework for modern websites.",
+    "icon": "https://icon.icepanel.io/Technology/svg/Tailwind-CSS.svg",
+    "color": "bg-cyan-500",
+    "badge": "Modern",
+    "rating": "4.9",
+    "difficulty": "Beginner-Friendly"
+  },
+  {
+    "id": 12,
+    "name": "Docker",
+    "category": "DevOps",
+    "description": "A platform for developing and running applications in containers.",
+    "icon": "https://icon.icepanel.io/Technology/svg/Docker.svg",
+    "color": "bg-blue-600",
+    "badge": "Containers",
+    "rating": "4.9",
+    "difficulty": "Intermediate"
+  }
+]
