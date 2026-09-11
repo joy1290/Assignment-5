@@ -57,3 +57,5 @@ This project was created as Assignment 5 to practice React components, state man
 5. **Why does every item in a `.map()` list need a unique `key` prop?**  
    A unique `key` helps React identify each item in a list. It helps React update the list efficiently when items are added or removed.
 
+6. **What is conditional rendering? Show one place you used it.**  
+   Conditional rendering means showing different UI based on a condition. I used it in the Your Stack section to show an empty message when no technology is selected.
