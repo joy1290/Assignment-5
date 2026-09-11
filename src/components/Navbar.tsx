@@ -5,7 +5,7 @@ function Navbar() {
     <nav className="sticky top-0 z-[9999] w-full border-b border-gray-200 bg-white shadow-sm">
       <div className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
 
-        {/* Logo */}
+        
         <a href="#" className="shrink-0">
           <img
             src={logoImg}
@@ -14,7 +14,7 @@ function Navbar() {
           />
         </a>
 
-        {/* Desktop Navigation */}
+        
         <div className="hidden items-center gap-6 md:flex lg:gap-8">
 
           <a
@@ -54,10 +54,10 @@ function Navbar() {
 
         </div>
 
-        {/* Right Side */}
+        
         <div className="flex items-center gap-2 sm:gap-3">
 
-          {/* Sign In */}
+          
           <button
             type="button"
             className="hidden text-sm font-medium text-gray-600 transition-colors hover:text-pink-500 sm:block"
@@ -65,7 +65,7 @@ function Navbar() {
             Sign In
           </button>
 
-          {/* Sign Up */}
+          
           <button
             type="button"
             className="rounded-full bg-pink-500 px-4 py-2 text-xs font-medium text-white transition-colors hover:bg-pink-600 sm:px-5 sm:py-2.5 sm:text-sm"
@@ -73,7 +73,7 @@ function Navbar() {
             Sign Up
           </button>
 
-          {/* Mobile Menu Button */}
+          
           <button
             type="button"
             aria-label="Open menu"

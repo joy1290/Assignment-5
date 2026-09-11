@@ -14,7 +14,7 @@ function YourStack({
   return (
     <aside className="w-full rounded-xl border border-gray-200 bg-white p-5 shadow-sm">
 
-      {/* Header */}
+    
       <div>
         <h2 className="text-lg font-bold text-slate-900">
           Your Stack
@@ -26,7 +26,7 @@ function YourStack({
         </p>
       </div>
 
-      {/* Stack List */}
+      
       <div className="mt-5 space-y-2">
 
         {stack.length === 0 ? (
@@ -52,7 +52,7 @@ function YourStack({
               className="flex items-center justify-between rounded-lg border border-gray-200 px-3 py-3"
             >
 
-              {/* Technology Information */}
+              
               <div className="flex items-center gap-3">
 
                 <div
@@ -73,7 +73,7 @@ function YourStack({
 
               </div>
 
-              {/* Remove One */}
+              
               <button
                 type="button"
                 onClick={() => onRemove(technology.id)}
@@ -89,7 +89,7 @@ function YourStack({
 
       </div>
 
-      {/* Remove All */}
+      
       {stack.length > 0 && (
         <button
           type="button"

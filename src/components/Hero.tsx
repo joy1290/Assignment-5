@@ -5,7 +5,7 @@ function Hero() {
     <section className="bg-white">
       <div className="mx-auto flex min-h-[530px] max-w-7xl items-center px-6 py-16">
 
-        {/* Left Content */}
+    
         <div className="w-full lg:w-1/2">
 
           <h1 className="text-5xl font-extrabold leading-[1.1] tracking-tight text-slate-900 md:text-6xl">
@@ -23,7 +23,7 @@ function Hero() {
             create your perfect development stack.
           </p>
 
-          {/* Buttons */}
+          
           <div className="mt-8 flex flex-wrap gap-4">
             <button className="rounded-lg bg-gradient-to-r from-orange-500 to-pink-500 px-6 py-3 font-medium text-white shadow-lg transition hover:scale-105">
               Explore Technologies
@@ -35,7 +35,7 @@ function Hero() {
           </div>
         </div>
 
-        {/* Right Side */}
+      
         <div className="flex justify-center items-center">
           <img src={bannerImg} alt="Development Stack Banner" />
         </div>

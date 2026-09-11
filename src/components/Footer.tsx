@@ -3,10 +3,10 @@ function Footer() {
   return (
     <footer className="border-t border-gray-200 bg-white">
 
-      {/* Main Footer */}
+    
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-6 py-12 sm:grid-cols-2 md:grid-cols-4">
 
-        {/* Brand */}
+        
         <div>
           <div className="flex items-center gap-2">
 
@@ -21,7 +21,7 @@ function Footer() {
             building modern products.
           </p>
 
-          {/* Social Links */}
+          
           <div className="mt-4 flex gap-4 text-[11px] text-gray-500">
             <a href="#" className="hover:text-pink-500">
               GitHub
@@ -37,7 +37,7 @@ function Footer() {
           </div>
         </div>
 
-        {/* Product */}
+      
         <div>
           <h3 className="text-xs font-bold uppercase text-gray-800">
             Product
@@ -69,7 +69,7 @@ function Footer() {
           </div>
         </div>
 
-        {/* Company */}
+      
         <div>
           <h3 className="text-xs font-bold uppercase text-gray-800">
             Company
@@ -101,7 +101,7 @@ function Footer() {
           </div>
         </div>
 
-        {/* Legal */}
+        
         <div>
           <h3 className="text-xs font-bold uppercase text-gray-800">
             Legal
@@ -128,7 +128,7 @@ function Footer() {
 
       </div>
 
-      {/* Bottom Footer */}
+
       <div className="border-t border-gray-100">
 
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5">

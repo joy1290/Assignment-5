@@ -64,7 +64,7 @@ function App() {
 
   return (
     <>
-      {/* Notification */}
+      
       <Toaster
         position="top-right"
         toastOptions={{
@@ -76,15 +76,15 @@ function App() {
       />
 
       <div className="min-h-screen bg-white">
-        {/* Navbar */}
+        
         <Navbar />
 
-        {/* Main */}
+        
         <main>
-          {/* Hero */}
+          
           <Hero />
 
-          {/* Technologies + Your Stack */}
+          
           <section
             id="technologies"
             className="bg-gray-50 px-4 py-16 sm:px-6"
@@ -92,13 +92,13 @@ function App() {
             <div className="mx-auto max-w-7xl">
               <div className="grid grid-cols-1 gap-6 lg:grid-cols-[1fr_300px]">
 
-                {/* Technology Cards */}
+                
                 <TechnologySection
                   stack={stack}
                   onAdd={addTechnology}
                 />
 
-                {/* Your Stack */}
+              
                 <div className="lg:pt-[72px]">
                   <YourStack
                     stack={stack}
