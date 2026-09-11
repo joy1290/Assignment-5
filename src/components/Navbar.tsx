@@ -8,7 +8,7 @@ function Navbar() {
     <nav className="sticky top-0 z-[9999] w-full border-b border-gray-200 bg-white shadow-sm">
       <div className="mx-auto flex h-[72px] max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
 
-      
+        
         <a href="#" className="shrink-0">
           <img
             src={logoImg}
@@ -17,7 +17,7 @@ function Navbar() {
           />
         </a>
 
-        
+  
         <div className="hidden items-center gap-6 md:flex lg:gap-8">
           <a href="#" className="font-medium text-pink-500 transition-colors hover:text-pink-600">
             Home
@@ -38,7 +38,7 @@ function Navbar() {
 
       
         <div className="flex items-center gap-2 sm:gap-3">
-          {/* Sign In Button */}
+    
           <button
             type="button"
             className="text-xs font-medium text-gray-600 transition-colors hover:text-pink-500 sm:text-sm px-2 py-1"
@@ -46,7 +46,7 @@ function Navbar() {
             Sign In
           </button>
 
-      
+        
           <button
             type="button"
             className="rounded-full bg-pink-500 px-3 py-1.5 text-xs font-medium text-white transition-colors hover:bg-pink-600 sm:px-5 sm:py-2.5 sm:text-sm"
@@ -54,7 +54,7 @@ function Navbar() {
             Sign Up
           </button>
 
-    
+        
           <button
             type="button"
             aria-label="Open menu"
@@ -66,7 +66,7 @@ function Navbar() {
         </div>
       </div>
 
-
+  
       {isOpen && (
         <div className="border-b border-gray-200 bg-white px-4 pt-2 pb-4 md:hidden shadow-lg">
           <div className="flex flex-col gap-3">
