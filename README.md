@@ -42,7 +42,8 @@ This project was created as Assignment 5 to practice React components, state man
 
 ## 📚 React Questions & Answers
 
-
+1. **What is JSX, and why is it used in React?**  
+   JSX is a syntax that allows us to write HTML-like code inside JavaScript or TypeScript. It makes React components easier to create and understand.
 
 2. **What is the difference between props and state?**  
    Props are used to pass data from a parent component to a child component. State is used to store and manage data that can change inside a component.
